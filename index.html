@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio Project -MATILDA</title>
   </head>
-  <body>
+  <body style="background-color: wheat">
     <nav
       style="
         background-color: darkgreen;
@@ -46,6 +46,8 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        gap: 60px;
+        margin-top: 40px;
       "
     >
       <div>
@@ -123,13 +125,29 @@
       </div>
     </section>
 
-    <section>
+    <section
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+      "
+    >
       <div>
         <img src="./monea.webp" alt="" />
       </div>
 
       <div>
-        <h2>ABOUT ME</h2>
+        <h2
+          style="
+            color: goldenrod;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: xxx-large;
+          "
+        >
+          ABOUT ME
+        </h2>
         <p>
           Experienced web developer focused on creating secure, scalable, and
           high-performance web solutions using modern technologies.”
@@ -137,16 +155,52 @@
       </div>
     </section>
 
-    <section>
-      <h3>my tools</h3>
-      <p>Visual Studio</p>
-      <p>Git and Github</p>
-      <p>Figma</p>
-      <p>Wordpress</p>
+    <section
+      style="
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-items: center;
+        align-content: center;
+        text-align: center;
+      "
+    >
+      <div
+        style="
+          color: goldenrod;
+          font-size: xxx-large;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <h3>my tools</h3>
+      </div>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 40px;
+        "
+      >
+        <p>Visual Studio</p>
+        <p>Git and Github</p>
+        <p>Figma</p>
+        <p>Wordpress</p>
+      </div>
     </section>
 
     <section>
-      <div><h3>PROJECTS</h3></div>
+      <div
+        style="
+          color: goldenrod;
+          font-size: xxx-large;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <h3>PROJECTS</h3>
+      </div>
       <div style="display: flex">
         <div>
           <img
@@ -154,7 +208,9 @@
             alt=""
             style="width: 200px; height: 200px"
           />
-          <h4>UrbanEats Local Food Discovery Platform</h4>
+          <h4 style="color: goldenrod; font-size: x-large">
+            UrbanEats Local Food Discovery Platform
+          </h4>
           <p>
             A modern web app that helps users discover local restaurants and
             street food vendors based on real-time reviews and location data.
@@ -170,7 +226,9 @@
             alt=""
             style="width: 200px; height: 200px"
           />
-          <h4>GreenNest Eco-Friendly E-Commerce Stor</h4>
+          <h4 style="color: goldenrod; font-size: x-large">
+            GreenNest Eco-Friendly E-Commerce Stor
+          </h4>
           <p>
             An elegant online store promoting sustainable living by selling
             eco-friendly products. Designed with Next.js and Stripe integration,
@@ -186,7 +244,9 @@
             alt=""
             style="width: 200px; height: 200px"
           />
-          <h4>DevConnect Developer Community Hub</h4>
+          <h4 style="color: goldenrod; font-size: x-large">
+            DevConnect Developer Community Hub
+          </h4>
           <p>
             A social networking platform for developers to share projects, blog
             posts, and job opportunities. Created with Vue.js and Firebase,
@@ -198,28 +258,39 @@
       </div>
     </section>
 
-    <footer>
-      <div>
-        <h3>SERVICES</h3>
-        <a href="">Design</a>
-        <a href="">Content Creation</a>
-        <a href="">Marketing</a>
-      </div>
+    <footer style="margin-top: 40px; padding: 60px">
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 30px;
+        "
+      >
+        <div style="display: flex; flex-direction: column">
+          <h3 style="color: goldenrod">SERVICES</h3>
+          <a href="">Design</a>
+          <a href="">Content Creation</a>
+          <a href="">Marketing</a>
+        </div>
 
-      <div>
-        <h3>FOLLOW ME</h3>
-        <a href="">Linked In</a>
-        <a href="">Instagram</a>
-        <a href="">tiktok</a>
-      </div>
+        <div style="display: flex; flex-direction: column">
+          <h3 style="color: goldenrod">FOLLOW ME</h3>
+          <a href="">Linked In</a>
+          <a href="">Instagram</a>
+          <a href="">tiktok</a>
+        </div>
 
-      <div>
-        <h3>CONTACT</h3>
-        <a href="">aff</a>
-        <a href="">hmm</a>
-        <a href="">dre</a>
+        <div style="display: flex; flex-direction: column">
+          <h3 style="color: goldenrod">CONTACT</h3>
+          <a href="">aff</a>
+          <a href="">hmm</a>
+          <a href="">dre</a>
+        </div>
       </div>
-      <p>copyright 2025 - Rights reserved by Matilda</p>
+      <p style="text-align: center">
+        copyright 2025 - Rights reserved by Matilda
+      </p>
     </footer>
   </body>
 </html>
